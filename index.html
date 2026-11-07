@@ -31,6 +31,8 @@
 
     <link rel="stylesheet"
           href="css/style.css">
+    <link rel="stylesheet" 
+          href="css/contact.css">
 
 </head>
 
@@ -1114,52 +1116,136 @@
 
 
 <section
-    class="section contact"
-    id="contact">
+    class="section contact lux-contact"
+    id="contact"
+    data-lux-contact>
+
+    <div class="lux-card">
+
+        <!-- dekorasi -->
+        <span class="lux-frame" aria-hidden="true"></span>
+        <span class="lux-corner lux-corner--tl" aria-hidden="true"></span>
+        <span class="lux-corner lux-corner--tr" aria-hidden="true"></span>
+        <span class="lux-corner lux-corner--bl" aria-hidden="true"></span>
+        <span class="lux-corner lux-corner--br" aria-hidden="true"></span>
+
+        <!-- segel R -->
+        <div class="lux-seal" aria-hidden="true">
+            <div class="lux-seal__inner" style="--d:.2s">
+
+                <svg class="lux-seal__base" viewBox="0 0 120 120">
+                    <circle cx="60" cy="60" r="59" fill="#fbf8f2" stroke="rgba(201,111,61,.5)" stroke-width=".8"/>
+                    <circle cx="60" cy="60" r="54" fill="none" stroke="rgba(18,60,44,.14)" stroke-width=".6"/>
+                    <circle cx="60" cy="60" r="36" fill="none" stroke="rgba(201,111,61,.55)" stroke-width=".6"/>
+                    <circle cx="60" cy="60" r="31" fill="#123c2c"/>
+                    <text x="60" y="60" dy=".34em" text-anchor="middle">R</text>
+                </svg>
+
+                <svg class="lux-seal__text" viewBox="0 0 120 120">
+                    <defs>
+                        <path id="luxSealPath" d="M 60,60 m -44,0 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0"/>
+                    </defs>
+                    <text>
+                        <textPath href="#luxSealPath" textLength="272" lengthAdjust="spacing">RUANG SALATIGA · TASTE THE STORY ·&#160;</textPath>
+                    </text>
+                </svg>
+
+            </div>
+        </div>
 
 
-    <div class="contact-box">
+        <p class="lux-eyebrow" data-r style="--d:.35s">
+            <span class="lux-eyebrow__line" aria-hidden="true"></span>
+            <span class="lux-eyebrow__text">06 — Say Hello</span>
+            <span class="lux-eyebrow__line" aria-hidden="true"></span>
+        </p>
 
 
-        <div class="section-label">
+        <h2 class="lux-title">
+            <span class="lux-title__row">
+                <span class="lux-word" style="--d:.5s">Keep</span>
+                <span class="lux-word" style="--d:.6s">the</span>
+                <span class="lux-word" style="--d:.7s">story</span>
+            </span>
+            <span class="lux-title__row">
+                <em class="lux-accent" style="--d:.9s">
+                    <span class="lux-accent__text">alive.</span>
+                    <svg class="lux-swash" viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true">
+                        <path pathLength="1" d="M3 13 C 45 5, 120 2, 197 9"/>
+                    </svg>
+                </em>
+            </span>
+        </h2>
 
-            06 — SAY HELLO
+
+        <div class="lux-divider" data-r style="--d:1.05s" aria-hidden="true">
+            <span class="lux-divider__line"></span>
+            <svg class="lux-divider__star" viewBox="0 0 20 20">
+                <path d="M10 0C10.8 6.2 13.8 9.2 20 10C13.8 10.8 10.8 13.8 10 20C9.2 13.8 6.2 10.8 0 10C6.2 9.2 9.2 6.2 10 0Z"/>
+            </svg>
+            <span class="lux-divider__line"></span>
+        </div>
+
+
+        <p class="lux-lead" data-r style="--d:1.15s">
+            Ruang Salatiga mengajak generasi
+            muda untuk mengenal, menikmati,
+            dan menjaga cerita lokal.
+        </p>
+
+        <p class="lux-sub" data-r style="--d:1.25s">
+            Hubungi di bawah ini jika Anda ingin melakukan kolaborasi.
+        </p>
+
+
+        <div class="lux-cta" data-r style="--d:1.4s">
+
+            <div class="lux-magnet">
+                <a
+                    href="mailto:hello@ruangsalatiga.id"
+                    class="lux-btn">
+
+                    <span class="lux-btn__fill" aria-hidden="true"></span>
+
+                    <span class="lux-btn__label">Let's Connect</span>
+
+                    <span class="lux-btn__icon" aria-hidden="true">
+                        <svg class="lux-arrow lux-arrow--a" viewBox="0 0 16 16"><path d="M4 12L12 4M5.5 4H12V10.5"/></svg>
+                        <svg class="lux-arrow lux-arrow--b" viewBox="0 0 16 16"><path d="M4 12L12 4M5.5 4H12V10.5"/></svg>
+                    </span>
+
+                </a>
+            </div>
+
+            <button
+                type="button"
+                class="lux-copy"
+                data-copy="hello@ruangsalatiga.id"
+                aria-label="Salin alamat email hello@ruangsalatiga.id">
+
+                <span class="lux-copy__mail">hello@ruangsalatiga.id</span>
+
+                <span class="lux-copy__tag" aria-hidden="true">
+                    <span class="lux-copy__idle">Salin</span>
+                    <span class="lux-copy__done">Tersalin</span>
+                </span>
+
+            </button>
+
+            <span class="lux-sr" aria-live="polite" data-copy-status></span>
 
         </div>
 
 
-        <h2>
-
-            Keep the story
-            <br>
-
-            <em>alive.</em>
-
-        </h2>
-
-
-        <p>
-
-            Ruang Salatiga mengajak generasi
-            muda untuk mengenal, menikmati,
-            dan menjaga cerita lokal.
-
-            <br>hubungi dibawah ini jika anda ingin melakukan kolaborasi.
-</b>
+        <!-- watermark -->
+        <p class="lux-meta" data-r style="--d:1.8s" aria-hidden="true">
+            Salatiga · Jawa Tengah
         </p>
 
-
-        <a
-            href="mailto:hello@ruangsalatiga.id"
-            class="btn btn-dark">
-
-            Let's Connect
-
-            <span>
-                ↗
-            </span>
-
-        </a>
+        <p class="lux-signature" data-r style="--d:1.8s">
+            <span class="lux-signature__line" aria-hidden="true"></span>
+            oleh baehaqi
+        </p>
 
     </div>
 
@@ -1212,6 +1298,9 @@
 
 <script
     src="js/script.js">
+</script>
+<script
+    src="js/contact.js">
 </script>
 
 
