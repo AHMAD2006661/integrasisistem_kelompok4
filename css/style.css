@@ -55,7 +55,7 @@ a {
 
     border-radius: 50px;
 
-    background: rgba(245, 240, 230, .88);
+    background: var(--stay-cream);
 
     backdrop-filter: blur(18px);
 
