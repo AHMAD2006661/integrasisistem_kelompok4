@@ -2385,3 +2385,33 @@ img {
         z-index: 3;
     }
 }
+
+
+
+/*tambahan kuliner*/
+#kuliner .section-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+#kuliner .kuliner-side-note {
+    max-width: 420px;
+    margin: 0;
+    color: rgba(251, 248, 242, 0.82);
+    font-size: 0.98rem;
+    line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+    #kuliner .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    #kuliner .kuliner-side-note {
+        max-width: 100%;
+    }
+}
